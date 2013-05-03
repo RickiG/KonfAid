@@ -24,6 +24,12 @@
 		9DE7F7371733CA4D00F57760 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7F7351733CA4D00F57760 /* libtesseract_all.a */; };
 		9DE7F7391733CCC400F57760 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7F7381733CCC400F57760 /* libstdc++.6.dylib */; };
 		9DE7F73C1733CDA300F57760 /* TesseractWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F73B1733CDA300F57760 /* TesseractWrapper.mm */; };
+		9DE7F7471733E14F00F57760 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F7461733E14F00F57760 /* tessdata */; };
+		9DE7F7491733E21700F57760 /* Tesseract_iOS.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F7481733E21700F57760 /* Tesseract_iOS.sqlite */; };
+		9DE7F74D1733E4DA00F57760 /* ocr_test_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F74C1733E4DA00F57760 /* ocr_test_image.png */; };
+		9DE7F74F1733E9B900F57760 /* ocr_test_image_adjusted.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F74E1733E9B900F57760 /* ocr_test_image_adjusted.png */; };
+		9DE7F7521733EA6000F57760 /* ocr_test_image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F7511733EA6000F57760 /* ocr_test_image_2.png */; };
+		9DE7F7541733EB2600F57760 /* IMG_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F7531733EB2600F57760 /* IMG_0002.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +105,12 @@
 		9DE7F7381733CCC400F57760 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		9DE7F73A1733CDA300F57760 /* TesseractWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesseractWrapper.h; sourceTree = "<group>"; };
 		9DE7F73B1733CDA300F57760 /* TesseractWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TesseractWrapper.mm; sourceTree = "<group>"; };
+		9DE7F7461733E14F00F57760 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = "../../../../../Downloads/Tesseract-iOS-master-1/Tesseract-iOS/Assets/tessdata"; sourceTree = "<group>"; };
+		9DE7F7481733E21700F57760 /* Tesseract_iOS.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tesseract_iOS.sqlite; sourceTree = "<group>"; };
+		9DE7F74C1733E4DA00F57760 /* ocr_test_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocr_test_image.png; sourceTree = "<group>"; };
+		9DE7F74E1733E9B900F57760 /* ocr_test_image_adjusted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocr_test_image_adjusted.png; sourceTree = "<group>"; };
+		9DE7F7511733EA6000F57760 /* ocr_test_image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocr_test_image_2.png; sourceTree = "<group>"; };
+		9DE7F7531733EB2600F57760 /* IMG_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0002.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,7 @@
 		9DE7F6D21733B15300F57760 /* KonfAid */ = {
 			isa = PBXGroup;
 			children = (
+				9DE7F7451733E13D00F57760 /* Assets */,
 				9DE7F6EE1733B24A00F57760 /* NIbs */,
 				9DE7F6ED1733B24800F57760 /* ViewControllers */,
 				9DE7F6EC1733B24500F57760 /* Views */,
@@ -178,9 +191,9 @@
 		9DE7F6EB1733B24200F57760 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9DE7F7501733E9BD00F57760 /* TestData */,
 				9DE7F73A1733CDA300F57760 /* TesseractWrapper.h */,
 				9DE7F73B1733CDA300F57760 /* TesseractWrapper.mm */,
-				9DE7F6F21733C51800F57760 /* test_data.jpg */,
 				9DE7F6F41733C54E00F57760 /* RGTesseractModel.h */,
 				9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */,
 			);
@@ -300,6 +313,27 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		9DE7F7451733E13D00F57760 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7F7481733E21700F57760 /* Tesseract_iOS.sqlite */,
+				9DE7F7461733E14F00F57760 /* tessdata */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9DE7F7501733E9BD00F57760 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7F7531733EB2600F57760 /* IMG_0002.png */,
+				9DE7F7511733EA6000F57760 /* ocr_test_image_2.png */,
+				9DE7F74E1733E9B900F57760 /* ocr_test_image_adjusted.png */,
+				9DE7F74C1733E4DA00F57760 /* ocr_test_image.png */,
+				9DE7F6F21733C51800F57760 /* test_data.jpg */,
+			);
+			name = TestData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -358,6 +392,12 @@
 				9DE7F6E31733B15300F57760 /* Default-568h@2x.png in Resources */,
 				9DE7F6EA1733B1B400F57760 /* MainStoryboard.storyboard in Resources */,
 				9DE7F6F31733C51800F57760 /* test_data.jpg in Resources */,
+				9DE7F7471733E14F00F57760 /* tessdata in Resources */,
+				9DE7F7491733E21700F57760 /* Tesseract_iOS.sqlite in Resources */,
+				9DE7F74D1733E4DA00F57760 /* ocr_test_image.png in Resources */,
+				9DE7F74F1733E9B900F57760 /* ocr_test_image_adjusted.png in Resources */,
+				9DE7F7521733EA6000F57760 /* ocr_test_image_2.png in Resources */,
+				9DE7F7541733EB2600F57760 /* IMG_0002.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^TesseractHandler)(NSString *result);
+
 @interface RGTesseractModel : NSObject
+
+@property(nonatomic, copy) TesseractHandler tesseractHandler;
+
+- (void) OCRImage:(UIImage*) image withHandler:(TesseractHandler) handler;
 
 @end

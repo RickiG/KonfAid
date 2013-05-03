@@ -7,8 +7,11 @@
 //
 
 #import "MainViewController.h"
+#import "RGTesseractModel.h"
 
 @interface MainViewController ()
+
+@property RGTesseractModel *model;
 
 @end
 
@@ -19,6 +22,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
+    
+    _model = [RGTesseractModel new];
+    UIImage *image = [UIImage imageNamed:@"IMG_0002.png"];
+    [_model OCRImage:image withHandler:^(NSString *result) {
+        
+        NSLog(@"I see : %@", result);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

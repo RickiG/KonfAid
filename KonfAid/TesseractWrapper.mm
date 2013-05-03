@@ -27,7 +27,6 @@
         // copy bundle data
         NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         NSString *documentPath = ([documentPaths count] > 0) ? [documentPaths objectAtIndex:0] : nil;
-        
         NSString *dataPath = [documentPath stringByAppendingPathComponent:@"tessdata"];
         NSFileManager *fileManager = [NSFileManager defaultManager];
         // If the expected store doesn't exist, copy the default store.
@@ -70,7 +69,7 @@
             return nil;
         
         uint32_t *pixels = (uint32_t *) malloc(baseWidth * height);
-        memset(pixels, 0, baseWidth * height); // alpha will be deleted too, this is needed if transparent png used
+        memset(pixels, 0, baseWidth * height); // a lpha will be deleted too, this is needed if transparent png used
         
         CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
         
