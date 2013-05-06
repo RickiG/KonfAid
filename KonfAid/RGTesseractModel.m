@@ -7,11 +7,12 @@
 //
 
 #import "RGTesseractModel.h"
+#import "Tesseract.h"
 #import "TesseractWrapper.h"
 
 @interface RGTesseractModel()
 
-@property TesseractWrapper *tesseract;
+@property Tesseract *tesseract;
 
 @end
 
@@ -21,8 +22,11 @@
 {
     if (self = [super init]) {
      
-        _tesseract = [[TesseractWrapper alloc] initEngineWithLanguage:@"eng"];
+//        _tesseract = [[Tesseract alloc] initEngineWithLanguage:@"eng"];
         
+        _tesseract = [[Tesseract alloc] initWithDataPath:@"tessdata" language:@"eng"];
+        
+        [_tesseract setVariableValue:@"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:/@.-" forKey:@"tessedit_char_whitelist"];
     }
     
     return self;
@@ -33,9 +37,15 @@
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND,0);
     
     dispatch_async(queue, ^{
-        NSString *result = [_tesseract analyseImage:image];
+        
+        [_tesseract setImage:image];
+        [_tesseract recognize];
+        
+//        NSString *result = [_tesseract analyseImage:image];
+        
         dispatch_async(dispatch_get_main_queue(), ^{
-            handler(result);
+            handler(_tesseract.recognizedText);
+//            handler(result);
         });
     });
 }
