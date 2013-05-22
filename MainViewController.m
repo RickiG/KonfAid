@@ -34,7 +34,6 @@
 
 - (void) buttonHandler:(id) sender
 {
-//    _image.image = [UIImage imageNamed:@"test_chris.png"];
     _image.image = [UIImage imageNamed:@"photo.png"];    
     _button.hidden = YES;
     
