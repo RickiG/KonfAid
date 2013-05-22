@@ -3,12 +3,12 @@
 //  KonfAid
 //
 //  Created by Ricki Gregersen on 5/3/13.
-//  Copyright (c) 2013 Ricki Gregersen. All rights reserved.
+//  Copyleft (c) 2013 Ricki Gregersen. No rights reserved.
 //
 
 #import "RGTesseractModel.h"
 #import "Tesseract.h"
-#import "TesseractWrapper.h"
+//#import "TesseractWrapper.h"
 
 @interface RGTesseractModel()
 
@@ -21,9 +21,7 @@
 - (id) init
 {
     if (self = [super init]) {
-     
-//        _tesseract = [[Tesseract alloc] initEngineWithLanguage:@"eng"];
-        
+
         _tesseract = [[Tesseract alloc] initWithDataPath:@"tessdata" language:@"eng"];
         
         [_tesseract setVariableValue:@"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:/@.-" forKey:@"tessedit_char_whitelist"];
@@ -41,11 +39,8 @@
         [_tesseract setImage:image];
         [_tesseract recognize];
         
-//        NSString *result = [_tesseract analyseImage:image];
-        
         dispatch_async(dispatch_get_main_queue(), ^{
             handler(_tesseract.recognizedText);
-//            handler(result);
         });
     });
 }
