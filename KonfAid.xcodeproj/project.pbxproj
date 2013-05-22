@@ -19,8 +19,6 @@
 		9DE7F6EA1733B1B400F57760 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6E91733B1B400F57760 /* MainStoryboard.storyboard */; };
 		9DE7F6F11733C10800F57760 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F6F01733C10800F57760 /* MainViewController.m */; };
 		9DE7F6F61733C54E00F57760 /* RGTesseractModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */; };
-		9DE7F7391733CCC400F57760 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7F7381733CCC400F57760 /* libstdc++.6.dylib */; };
-		9DE7F73C1733CDA300F57760 /* TesseractWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F73B1733CDA300F57760 /* TesseractWrapper.mm */; };
 		9DE7F75A1733FB7400F57760 /* RGCredentialsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F7591733FB7400F57760 /* RGCredentialsModel.m */; };
 		9DE7F75D1733FC1800F57760 /* RGCredentialsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F75C1733FC1800F57760 /* RGCredentialsEntity.m */; };
 		9DE7F7691734012500F57760 /* test_chris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F7681734012500F57760 /* test_chris.png */; };
@@ -30,9 +28,13 @@
 		9DE7F772173423D800F57760 /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F771173423D800F57760 /* compass@2x.png */; };
 		9DE7F77417342C0D00F57760 /* photo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F77317342C0D00F57760 /* photo.JPG */; };
 		9DE7F77817342CC200F57760 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F77717342CC200F57760 /* photo.png */; };
+		9DF02378174CBE7C001F2D45 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9DF02377174CBE7C001F2D45 /* Podfile */; };
+		B3417D1BE8C54D4391A5C3A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 771154844F6D4909862528F8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5490A69754FA4C0DAAD1D45B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		771154844F6D4909862528F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE7F6C91733B15300F57760 /* KonfAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonfAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE7F6CC1733B15300F57760 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9DE7F6CE1733B15300F57760 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,9 +53,6 @@
 		9DE7F6F01733C10800F57760 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		9DE7F6F41733C54E00F57760 /* RGTesseractModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTesseractModel.h; sourceTree = "<group>"; };
 		9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTesseractModel.m; sourceTree = "<group>"; };
-		9DE7F7381733CCC400F57760 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
-		9DE7F73A1733CDA300F57760 /* TesseractWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesseractWrapper.h; sourceTree = "<group>"; };
-		9DE7F73B1733CDA300F57760 /* TesseractWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TesseractWrapper.mm; sourceTree = "<group>"; };
 		9DE7F7581733FB7400F57760 /* RGCredentialsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCredentialsModel.h; sourceTree = "<group>"; };
 		9DE7F7591733FB7400F57760 /* RGCredentialsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCredentialsModel.m; sourceTree = "<group>"; };
 		9DE7F75B1733FC1700F57760 /* RGCredentialsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCredentialsEntity.h; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		9DE7F771173423D800F57760 /* compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compass@2x.png"; sourceTree = "<group>"; };
 		9DE7F77317342C0D00F57760 /* photo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.JPG; sourceTree = "<group>"; };
 		9DE7F77717342CC200F57760 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		9DF02377174CBE7C001F2D45 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE7F7391733CCC400F57760 /* libstdc++.6.dylib in Frameworks */,
 				9DE7F6CD1733B15300F57760 /* UIKit.framework in Frameworks */,
 				9DE7F6CF1733B15300F57760 /* Foundation.framework in Frameworks */,
 				9DE7F6D11733B15300F57760 /* CoreGraphics.framework in Frameworks */,
+				B3417D1BE8C54D4391A5C3A0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +89,7 @@
 				9DE7F6D21733B15300F57760 /* KonfAid */,
 				9DE7F6CB1733B15300F57760 /* Frameworks */,
 				9DE7F6CA1733B15300F57760 /* Products */,
+				5490A69754FA4C0DAAD1D45B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +104,10 @@
 		9DE7F6CB1733B15300F57760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7F7381733CCC400F57760 /* libstdc++.6.dylib */,
-				9DE7F6FF1733CA4D00F57760 /* Tesseract */,
 				9DE7F6CC1733B15300F57760 /* UIKit.framework */,
 				9DE7F6CE1733B15300F57760 /* Foundation.framework */,
 				9DE7F6D01733B15300F57760 /* CoreGraphics.framework */,
+				771154844F6D4909862528F8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +115,13 @@
 		9DE7F6D21733B15300F57760 /* KonfAid */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7F7451733E13D00F57760 /* Assets */,
-				9DE7F6EE1733B24A00F57760 /* NIbs */,
+				9DE7F6DB1733B15300F57760 /* RGAppDelegate.h */,
+				9DE7F6DC1733B15300F57760 /* RGAppDelegate.m */,
+				9DF02379174CC118001F2D45 /* Graphics */,
+				9DE7F6EE1733B24A00F57760 /* Storyboard */,
 				9DE7F6ED1733B24800F57760 /* ViewControllers */,
 				9DE7F6EC1733B24500F57760 /* Views */,
 				9DE7F6EB1733B24200F57760 /* Model */,
-				9DE7F6DB1733B15300F57760 /* RGAppDelegate.h */,
-				9DE7F6DC1733B15300F57760 /* RGAppDelegate.m */,
 				9DE7F6D31733B15300F57760 /* Supporting Files */,
 			);
 			path = KonfAid;
@@ -130,6 +130,7 @@
 		9DE7F6D31733B15300F57760 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9DF02377174CBE7C001F2D45 /* Podfile */,
 				9DE7F6D41733B15300F57760 /* KonfAid-Info.plist */,
 				9DE7F6D51733B15300F57760 /* InfoPlist.strings */,
 				9DE7F6D81733B15300F57760 /* main.m */,
@@ -145,8 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				9DE7F7501733E9BD00F57760 /* TestData */,
-				9DE7F73A1733CDA300F57760 /* TesseractWrapper.h */,
-				9DE7F73B1733CDA300F57760 /* TesseractWrapper.mm */,
 				9DE7F6F41733C54E00F57760 /* RGTesseractModel.h */,
 				9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */,
 				9DE7F7581733FB7400F57760 /* RGCredentialsModel.h */,
@@ -160,10 +159,7 @@
 		9DE7F6EC1733B24500F57760 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7F771173423D800F57760 /* compass@2x.png */,
-				9DE7F76F1734237000F57760 /* bird@2x.png */,
 				9DE7F76A17341FD600F57760 /* RGCell.h */,
-				9DE7F76D1734235F00F57760 /* envelope@2x.png */,
 				9DE7F76B17341FD600F57760 /* RGCell.m */,
 			);
 			name = Views;
@@ -178,42 +174,12 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		9DE7F6EE1733B24A00F57760 /* NIbs */ = {
+		9DE7F6EE1733B24A00F57760 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
 				9DE7F6E91733B1B400F57760 /* MainStoryboard.storyboard */,
 			);
-			name = NIbs;
-			sourceTree = "<group>";
-		};
-		9DE7F6FF1733CA4D00F57760 /* Tesseract */ = {
-			isa = PBXGroup;
-			children = (
-				9DE7F7001733CA4D00F57760 /* include */,
-				9DE7F7331733CA4D00F57760 /* lib */,
-			);
-			path = Tesseract;
-			sourceTree = "<group>";
-		};
-		9DE7F7001733CA4D00F57760 /* include */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		9DE7F7331733CA4D00F57760 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		9DE7F7451733E13D00F57760 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Assets;
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 		9DE7F7501733E9BD00F57760 /* TestData */ = {
@@ -226,6 +192,16 @@
 			name = TestData;
 			sourceTree = "<group>";
 		};
+		9DF02379174CC118001F2D45 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7F771173423D800F57760 /* compass@2x.png */,
+				9DE7F76F1734237000F57760 /* bird@2x.png */,
+				9DE7F76D1734235F00F57760 /* envelope@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,9 +209,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DE7F6E61733B15300F57760 /* Build configuration list for PBXNativeTarget "KonfAid" */;
 			buildPhases = (
+				6A85912B15D34E31866BDDFB /* Check Pods Manifest.lock */,
+				1C1D6A3F1CF44114B5F01140 /* Check Pods Manifest.lock */,
+				B0BEE9A6FD764102926C1DFF /* Check Pods Manifest.lock */,
+				7384B88ED54E410D96A7B145 /* Check Pods Manifest.lock */,
 				9DE7F6C51733B15300F57760 /* Sources */,
 				9DE7F6C61733B15300F57760 /* Frameworks */,
 				9DE7F6C71733B15300F57760 /* Resources */,
+				78F7D0F3ADF749368F0C79BC /* Copy Pods Resources */,
+				9D616532269A4BA08E9CC792 /* Copy Pods Resources */,
+				634BD68B08BB45A385FB4C56 /* Copy Pods Resources */,
+				64525AE12DC145AE913DA0E6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,10 +273,126 @@
 				9DE7F772173423D800F57760 /* compass@2x.png in Resources */,
 				9DE7F77417342C0D00F57760 /* photo.JPG in Resources */,
 				9DE7F77817342CC200F57760 /* photo.png in Resources */,
+				9DF02378174CBE7C001F2D45 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1D6A3F1CF44114B5F01140 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		634BD68B08BB45A385FB4C56 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		64525AE12DC145AE913DA0E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		6A85912B15D34E31866BDDFB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		7384B88ED54E410D96A7B145 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		78F7D0F3ADF749368F0C79BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		9D616532269A4BA08E9CC792 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		B0BEE9A6FD764102926C1DFF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DE7F6C51733B15300F57760 /* Sources */ = {
@@ -303,7 +403,6 @@
 				9DE7F6DD1733B15300F57760 /* RGAppDelegate.m in Sources */,
 				9DE7F6F11733C10800F57760 /* MainViewController.m in Sources */,
 				9DE7F6F61733C54E00F57760 /* RGTesseractModel.m in Sources */,
-				9DE7F73C1733CDA300F57760 /* TesseractWrapper.mm in Sources */,
 				9DE7F75A1733FB7400F57760 /* RGCredentialsModel.m in Sources */,
 				9DE7F75D1733FC1800F57760 /* RGCredentialsEntity.m in Sources */,
 				9DE7F76C17341FD600F57760 /* RGCell.m in Sources */,
@@ -382,6 +481,7 @@
 		};
 		9DE7F6E71733B15300F57760 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5490A69754FA4C0DAAD1D45B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KonfAid/KonfAid-Prefix.pch";
@@ -398,6 +498,7 @@
 		};
 		9DE7F6E81733B15300F57760 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5490A69754FA4C0DAAD1D45B /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KonfAid/KonfAid-Prefix.pch";
