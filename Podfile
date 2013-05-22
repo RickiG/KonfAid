@@ -1,3 +1,3 @@
 platform :ios, :deployment_target => '6.0'
 
-pod 'Tesseract','~> 0.0.1'
+pod 'Tesseract-wrapper','~> 0.0.1'
