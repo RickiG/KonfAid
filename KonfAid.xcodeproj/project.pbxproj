@@ -16,7 +16,6 @@
 		9DE7F6DF1733B15300F57760 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6DE1733B15300F57760 /* Default.png */; };
 		9DE7F6E11733B15300F57760 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6E01733B15300F57760 /* Default@2x.png */; };
 		9DE7F6E31733B15300F57760 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6E21733B15300F57760 /* Default-568h@2x.png */; };
-		9DE7F6EA1733B1B400F57760 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6E91733B1B400F57760 /* MainStoryboard.storyboard */; };
 		9DE7F6F61733C54E00F57760 /* RGTesseractModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */; };
 		9DE7F75A1733FB7400F57760 /* RGCredentialsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F7591733FB7400F57760 /* RGCredentialsModel.m */; };
 		9DE7F75D1733FC1800F57760 /* RGCredentialsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F75C1733FC1800F57760 /* RGCredentialsEntity.m */; };
@@ -27,6 +26,7 @@
 		9DF0237C174CC662001F2D45 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0237B174CC662001F2D45 /* MainViewController.m */; };
 		9DF0237F174CC68A001F2D45 /* bird@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF0237D174CC68A001F2D45 /* bird@2x.png */; };
 		9DF02380174CC68A001F2D45 /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF0237E174CC68A001F2D45 /* compass@2x.png */; };
+		9DF02382174CC716001F2D45 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF02381174CC716001F2D45 /* MainStoryboard.storyboard */; };
 		B3417D1BE8C54D4391A5C3A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 771154844F6D4909862528F8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,6 @@
 		9DE7F6DE1733B15300F57760 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9DE7F6E01733B15300F57760 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9DE7F6E21733B15300F57760 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		9DE7F6E91733B1B400F57760 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9DE7F6F41733C54E00F57760 /* RGTesseractModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTesseractModel.h; sourceTree = "<group>"; };
 		9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTesseractModel.m; sourceTree = "<group>"; };
 		9DE7F7581733FB7400F57760 /* RGCredentialsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCredentialsModel.h; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		9DF0237B174CC662001F2D45 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		9DF0237D174CC68A001F2D45 /* bird@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bird@2x.png"; path = "Graphics/bird@2x.png"; sourceTree = "<group>"; };
 		9DF0237E174CC68A001F2D45 /* compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "compass@2x.png"; path = "Graphics/compass@2x.png"; sourceTree = "<group>"; };
+		9DF02381174CC716001F2D45 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +173,7 @@
 		9DE7F6EE1733B24A00F57760 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				9DE7F6E91733B1B400F57760 /* MainStoryboard.storyboard */,
+				9DF02381174CC716001F2D45 /* MainStoryboard.storyboard */,
 			);
 			name = Storyboard;
 			sourceTree = "<group>";
@@ -260,12 +260,12 @@
 				9DE7F6DF1733B15300F57760 /* Default.png in Resources */,
 				9DE7F6E11733B15300F57760 /* Default@2x.png in Resources */,
 				9DE7F6E31733B15300F57760 /* Default-568h@2x.png in Resources */,
-				9DE7F6EA1733B1B400F57760 /* MainStoryboard.storyboard in Resources */,
 				9DE7F76E1734235F00F57760 /* envelope@2x.png in Resources */,
 				9DE7F77817342CC200F57760 /* photo.png in Resources */,
 				9DF02378174CBE7C001F2D45 /* Podfile in Resources */,
 				9DF0237F174CC68A001F2D45 /* bird@2x.png in Resources */,
 				9DF02380174CC68A001F2D45 /* compass@2x.png in Resources */,
+				9DF02382174CC716001F2D45 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
