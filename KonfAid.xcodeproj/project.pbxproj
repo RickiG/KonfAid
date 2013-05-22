@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D17241B174CC8E700B356C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D172418174CC8E700B356C3 /* Default-568h@2x.png */; };
+		9D17241C174CC8E700B356C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D172419174CC8E700B356C3 /* Default.png */; };
+		9D17241D174CC8E700B356C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D17241A174CC8E700B356C3 /* Default@2x.png */; };
 		9DE7F6CD1733B15300F57760 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7F6CC1733B15300F57760 /* UIKit.framework */; };
 		9DE7F6CF1733B15300F57760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7F6CE1733B15300F57760 /* Foundation.framework */; };
 		9DE7F6D11733B15300F57760 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7F6D01733B15300F57760 /* CoreGraphics.framework */; };
 		9DE7F6D71733B15300F57760 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6D51733B15300F57760 /* InfoPlist.strings */; };
 		9DE7F6D91733B15300F57760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F6D81733B15300F57760 /* main.m */; };
 		9DE7F6DD1733B15300F57760 /* RGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F6DC1733B15300F57760 /* RGAppDelegate.m */; };
-		9DE7F6DF1733B15300F57760 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6DE1733B15300F57760 /* Default.png */; };
-		9DE7F6E11733B15300F57760 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6E01733B15300F57760 /* Default@2x.png */; };
-		9DE7F6E31733B15300F57760 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE7F6E21733B15300F57760 /* Default-568h@2x.png */; };
 		9DE7F6F61733C54E00F57760 /* RGTesseractModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */; };
 		9DE7F75A1733FB7400F57760 /* RGCredentialsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F7591733FB7400F57760 /* RGCredentialsModel.m */; };
 		9DE7F75D1733FC1800F57760 /* RGCredentialsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7F75C1733FC1800F57760 /* RGCredentialsEntity.m */; };
@@ -33,6 +33,9 @@
 /* Begin PBXFileReference section */
 		5490A69754FA4C0DAAD1D45B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		771154844F6D4909862528F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D172418174CC8E700B356C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Graphics/Default-568h@2x.png"; sourceTree = "<group>"; };
+		9D172419174CC8E700B356C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Graphics/Default.png; sourceTree = "<group>"; };
+		9D17241A174CC8E700B356C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Graphics/Default@2x.png"; sourceTree = "<group>"; };
 		9DE7F6C91733B15300F57760 /* KonfAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonfAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE7F6CC1733B15300F57760 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9DE7F6CE1733B15300F57760 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,9 +46,6 @@
 		9DE7F6DA1733B15300F57760 /* KonfAid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KonfAid-Prefix.pch"; sourceTree = "<group>"; };
 		9DE7F6DB1733B15300F57760 /* RGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAppDelegate.h; sourceTree = "<group>"; };
 		9DE7F6DC1733B15300F57760 /* RGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAppDelegate.m; sourceTree = "<group>"; };
-		9DE7F6DE1733B15300F57760 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		9DE7F6E01733B15300F57760 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		9DE7F6E21733B15300F57760 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9DE7F6F41733C54E00F57760 /* RGTesseractModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTesseractModel.h; sourceTree = "<group>"; };
 		9DE7F6F51733C54E00F57760 /* RGTesseractModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTesseractModel.m; sourceTree = "<group>"; };
 		9DE7F7581733FB7400F57760 /* RGCredentialsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCredentialsModel.h; sourceTree = "<group>"; };
@@ -126,14 +126,14 @@
 		9DE7F6D31733B15300F57760 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D172418174CC8E700B356C3 /* Default-568h@2x.png */,
+				9D172419174CC8E700B356C3 /* Default.png */,
+				9D17241A174CC8E700B356C3 /* Default@2x.png */,
 				9DF02377174CBE7C001F2D45 /* Podfile */,
 				9DE7F6D41733B15300F57760 /* KonfAid-Info.plist */,
 				9DE7F6D51733B15300F57760 /* InfoPlist.strings */,
 				9DE7F6D81733B15300F57760 /* main.m */,
 				9DE7F6DA1733B15300F57760 /* KonfAid-Prefix.pch */,
-				9DE7F6DE1733B15300F57760 /* Default.png */,
-				9DE7F6E01733B15300F57760 /* Default@2x.png */,
-				9DE7F6E21733B15300F57760 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -257,15 +257,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE7F6D71733B15300F57760 /* InfoPlist.strings in Resources */,
-				9DE7F6DF1733B15300F57760 /* Default.png in Resources */,
-				9DE7F6E11733B15300F57760 /* Default@2x.png in Resources */,
-				9DE7F6E31733B15300F57760 /* Default-568h@2x.png in Resources */,
 				9DE7F76E1734235F00F57760 /* envelope@2x.png in Resources */,
 				9DE7F77817342CC200F57760 /* photo.png in Resources */,
 				9DF02378174CBE7C001F2D45 /* Podfile in Resources */,
 				9DF0237F174CC68A001F2D45 /* bird@2x.png in Resources */,
 				9DF02380174CC68A001F2D45 /* compass@2x.png in Resources */,
 				9DF02382174CC716001F2D45 /* MainStoryboard.storyboard in Resources */,
+				9D17241B174CC8E700B356C3 /* Default-568h@2x.png in Resources */,
+				9D17241C174CC8E700B356C3 /* Default.png in Resources */,
+				9D17241D174CC8E700B356C3 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
